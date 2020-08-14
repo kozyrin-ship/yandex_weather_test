@@ -35,3 +35,10 @@ You are an adult in a free country, you can wear whatever you like, { если *
  *Если идет дождь с ветром сильнее 14 м/с* "Fight the urge to take an umbrella with you, the wind is too strong. Does not apply to Mary Poppins"
  
  *Если идет дождь с несильным ветром* "You should definitely take an umbrella"
+ 
+# Запуск программы
+
+К сожалению, я в первый раз столкнулся с задачей сохранения и запуска проекта Talend Studio вне облачного сервиса, поэтому, вероятно, неправильно сохранил .jar
+
+В видео ниже демонстрируется запуск проекта из Eclipse, процесс в описании под видео
+https://youtu.be/sVc8G0EWJKk
