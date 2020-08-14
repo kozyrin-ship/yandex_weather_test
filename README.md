@@ -14,22 +14,24 @@
 # Формирование текста
 
 Hello, beautiful
-Our elaborate analytical algorithm classifies this weather as {weather.main} which means {weather.description} in human terms.
 
-Currently the temperature is {main.temp} degrees Celcius, feels like {main.feels_like} degrees
+Our elaborate analytical algorithm classifies this weather as **{weather.main}** which means **{weather.description}** in human terms.
 
-Wind speed is {wind.speed} m/s, and the humidity is {main.humidity} percent.
+Currently the temperature is **{main.temp}** degrees Celcius, feels like {main.feels_like} degrees
 
-You are an adult in a free country, you can wear whatever you like, { если {weather.main} > 18, "but maybe bring those shorts out", иначе "but you would look cooler in a jacket" }?
+Wind speed is {wind.speed} m/s, and the humidity is **{main.humidity}** percent.
 
-{Если солнце зашло} However it's already dark outside, and you should stay at home
+You are an adult in a free country, you can wear whatever you like, { если **{weather.main}** > 18, "but maybe bring those shorts out", иначе "but you would look cooler in a jacket" }?
 
-{Если до заката есть время} You can go out, but you have {оставшееся время до заката} hours left to get home before dark
+*{Если солнце зашло}* However it's already dark outside, and you should stay at home
 
- Другие возможные фразы в имейле
+*{Если до заката есть время}* You can go out, but you have *{оставшееся время до заката}* hours left to get home before dark
+
+ 
+ Другие возможные фразы в имейле
  
- Если ветер сильнее 20 м/с "If your local authorities haven't told you what to do, they might be already blown away"
+ *Если ветер сильнее 20 м/с* "If your local authorities haven't told you what to do, they might be already blown away"
  
- Если идет дождь с ветром сильнее 14 м/с "Fight the urge to take an umbrella with you, the wind is too strong. Does not apply to Mary Poppins"
+ *Если идет дождь с ветром сильнее 14 м/с* "Fight the urge to take an umbrella with you, the wind is too strong. Does not apply to Mary Poppins"
  
- Если идет дождь с несильным ветром "You should definitely take an umbrella"
+ *Если идет дождь с несильным ветром* "You should definitely take an umbrella"
